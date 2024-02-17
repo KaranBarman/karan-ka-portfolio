@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header>
       <MaxWidthWrapper>
-        <div className="flex justify-between">
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-between">
           <div className="flex gap-4 items-center">
             <Image
               src={"/images/logo1.png"}
@@ -22,7 +22,7 @@ const Header = () => {
               className="rounded-full bg-yellow-400 w-20 h-20 border-4 border-white"
             />
             <div>
-              <h1 className="text-2xl md:text-3xl hero_font">Karan Barman</h1>
+              <h1 className="text-xl md:text-3xl hero_font">Karan Barman</h1>
               <p className="text-muted-foreground hero_font">
                 Full stack developer
               </p>
